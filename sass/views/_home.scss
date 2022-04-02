@@ -1,0 +1,62 @@
+
+.section1 , .section3 , .section5 , .section8 , .section10 {
+    background-image: url("../public/img/pizza-6.png");
+    min-height: 550px;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.section1_contenedor , .section3_contenedor, .section5_contenedor , .section8_contenedor , .section10_contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: #ffe284;
+}
+
+.section1 button , .section11 button{
+    margin: 15px 0px;
+    padding: 12px 20px;
+    background: blanchedalmond;
+    border-style: none;
+    border-radius: 20px;
+    color: tomato;
+}
+
+.section2 , .section4_1 , .section4_2, .section6, .section7, .section9{
+    padding: 30px 0px;
+    text-align: center;
+}
+.section2_cont , .section4_1_cont , .section4_2_cont{
+    text-align: justify;
+    gap: 30px;
+    padding: 20px;
+    /* flex-wrap: wrap; */
+}
+.section2_cont div , .section4_1_cont div , .section4_2_cont div{
+    flex-basis: 48%;
+}
+.section2_text, .section4_1_text, .section4_2_text ,.section6_text ,.section7_text ,.section9_text{
+    margin: 15px 0px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    
+    .section1 , .section3{
+        min-height: 310px;
+    }
+    .section2_cont , .section4_1_cont {
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    .section2_cont h2 , .section4_1_cont h2 , .section4_2_cont h2{
+        text-align: center;
+    }
+    .section2_text, .section4_1_text, .section4_2_text ,.section6_text ,.section7_text ,.section9_text{
+        margin: 10px 0px;
+    }
+}

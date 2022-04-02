@@ -1,0 +1,12 @@
+
+.section3_contenedor p , .section5_contenedor p, .section8_contenedor p , .section10_contenedor p{
+    margin: 15px 0px;
+}
+
+
+@media screen and (max-width:768px){
+    .section4_2_cont{
+        flex-direction: column-reverse;
+        padding: 0px 15px;
+    }
+}

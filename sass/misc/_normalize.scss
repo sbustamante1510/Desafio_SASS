@@ -1,0 +1,42 @@
+//RESET
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+//GLOBALES
+p,ul{
+    font-family: 'Comfortaa', cursive;
+}
+
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+input, textarea{
+    display: block;
+    margin: 15px 0px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #ffe284;
+}

@@ -1,0 +1,34 @@
+header{
+    .header_nav{
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+        flex-wrap: wrap;
+    }
+    .header_img{
+        width: 100px;
+    }
+    .header_ul{
+        gap: 25px;
+    }
+    & a{
+        transition: all .5s ease-in;
+
+        &:hover{
+            font-size: 19px;
+            color: #ff6347;
+            font-weight: bold;
+        }
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .header_nav{
+        justify-content: center;
+    }
+    .header_ul{
+        display: none;
+    }
+}
