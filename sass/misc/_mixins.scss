@@ -10,3 +10,8 @@
     max-width: 1050px;
     margin: 0 auto;
 }
+
+@mixin flex-propiedades($gap,$padding) {
+    gap: $gap;
+    padding: $padding;
+}

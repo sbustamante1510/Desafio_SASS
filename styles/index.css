@@ -34,14 +34,14 @@ input, textarea {
   border-radius: 6px;
   border: 2px solid #ffe284; }
 
-.flex-row {
+.flex-row, header .header_nav, header .header_ul, .section2_cont, .section4_1_cont, .section4_2_cont, .section11_sub {
   display: flex; }
 
 .flex-colum {
   display: flex;
   flex-direction: column; }
 
-.container {
+.container, header .header_nav, .section2_cont, .section4_1_cont, .section4_2_cont, .section11_sub {
   max-width: 1050px;
   margin: 0 auto; }
 

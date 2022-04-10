@@ -1,5 +1,7 @@
 header{
     .header_nav{
+        @extend .flex-row;
+        @extend .container;
         justify-content: space-between;
         align-items: center;
         height: 10vh;
@@ -9,6 +11,7 @@ header{
         width: 100px;
     }
     .header_ul{
+        @extend .flex-row;
         gap: 25px;
     }
     & a{

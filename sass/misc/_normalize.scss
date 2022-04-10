@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+$estilos: (
+    decoracion-header: none,
+    color-header: black,
+    vista1: inline-block,
+    vista2: block,
+    img-normalizador: 100%,
+    margenes: 15px 0px,
+    ancho-form: 80%,
+    relleno-interior: 10px,
+    cursiva-boton: 6px,
+    borde-form: 2px solid #ffe284
+);
 
 //GLOBALES
 p,ul{
@@ -22,21 +34,21 @@ body{
 }
 
 a{
-    text-decoration: none;
-    color: black;
-    display: inline-block;
+    text-decoration: map-get($estilos, decoracion-header);
+    color: map-get($estilos, color-header);
+    display: map-get($estilos, vista1);
 }
 ul{
-    list-style: none;
+    list-style: map-get($estilos, decoracion-header);
 }
 img{
-    width: 100%;
+    width: map-get($estilos, img-normalizador);
 }
 input, textarea{
-    display: block;
-    margin: 15px 0px;
-    width: 80%;
-    padding: 10px;
-    border-radius: 6px;
-    border: 2px solid #ffe284;
+    display: map-get($estilos, vista2);
+    margin: map-get($estilos, margenes);
+    width: map-get($estilos, ancho-form);
+    padding: map-get($estilos, relleno-interior);
+    border-radius: map-get($estilos, cursiva-boton);
+    border: map-get($estilos, borde-form);
 }
