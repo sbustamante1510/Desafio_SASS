@@ -5,4 +5,18 @@
 }
 .section7_submenu{
     text-align: center;
+    display: inline-block;
+    width: 21.4%;
+    margin: 0px 20px;
+}
+
+@media screen and (max-width:768px){
+    .section7_menu{
+        flex-direction: column !important;
+    }
+
+    .section7_submenu{
+        width: 92.84%;
+        margin: 0px 11px;
+    }
 }

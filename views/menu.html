@@ -5,61 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Mira y disfruta nuestra deliciosa carta">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/index.css">
     <title>Pizeria MENU</title>
 </head>
 <body>
     <header>
-        <nav class="header_nav ">
-            <picture class="header_img">
-                <a href="../index.html">
-                    <img src="../public/img/pizza-logo.jpg" alt="">
-                </a>
-            </picture> 
-            <ul class="header_ul">
-                <li class=""><a href="../index.html">Home</a></li>
-                <li class=""><a href="nosotros.html">Nosotros</a></li>
-                <li class=""><a href="menu.html">MENU</a></li>
-                <li class=""><a href="blog.html">Blog</a></li>
-                <li class=""><a href="contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+            <div class="container-fluid">
+                <picture class="header_img">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../public/img/pizza-logo.jpg" alt="">
+                    </a>
+                </picture> 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item"><a class="nav-link active efecto_header" aria-current="page" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active efecto_header" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link active efecto_header" href="menu.html">MENU</a></li>
+                        <li class="nav-item"><a class="nav-link active efecto_header" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link active efecto_header" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <section class="section5">
         <div class="section5_contenedor">
             <h2>Nuestro MENU</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Numquam in ea natus harum comm</p>
+            <p></p>
         </div>
     </section>
     <section class="section6">
-        <h2 class="section6_text">Nos vemos para el almuerzo</h2>
-        <p class="section6_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        Numquam in ea natus harum comm</p>
+        <h2 class="section6_text">Una promocion se disfruta mejor en familia y amigos</h2>
+        <p class="section6_text">Revise nuestras promociones</p>
         <p class="section6_text">HORARIO DE ATENCION</p>
+        <p class="section6_text">MARTES - DOMINGO 2:00pm a 10:00pm</p>
     </section>
     <section class="section7">
         <h2 class="section7_text">Platillos populares</h2>
         <div class="flex-row section7_menu ">
             <div class="section7_submenu">
-                <img src="../public/img/pizza-3.jpg" alt="">
-                <h3>Titulo 1</h3>
-                <p>Descripcion 1</p>
+                <img src="../public/img/productos_pizzas__americana.webp" alt="">
+                <h3>Pizza Americana</h3>
+                <p>Queso mozzarella y jamon</p>
             </div>
             <div class="section7_submenu">
-                <img src="../public/img/pizza-3.jpg" alt="">
-                <h3>Titulo 2</h3>
-                <p>Descripcion 2</p>
+                <img src="../public/img/productos_pizzas_mozzarella.webp" alt="">
+                <h3>Pizza Mozzarella</h3>
+                <p>Doble queso mozzarella</p>
             </div>
             <div class="section7_submenu">
-                <img src="../public/img/pizza-3.jpg" alt="">
-                <h3>Titulo 3</h3>
-                <p>Descripcion 3</p>
+                <img src="../public/img/productos_pizzas_pepperoni.webp" alt="">
+                <h3>Pizza Pepperoni</h3>
+                <p>Queso mozzarella y pepperoni</p>
             </div>
             <div class="section7_submenu">
-                <img src="../public/img/pizza-3.jpg" alt="">
-                <h3>Titulo 4</h3>
-                <p>Descripcion 4</p>
+                <img src="../public/img/productos_pizzas_vegetariana.webp" alt="">
+                <h3>Pizza Vegetariana</h3>
+                <p>Queso mozarella, pimiento verde, cebolla blanca</p>
             </div>
         </div>
     </section>
@@ -69,5 +76,6 @@
             <p class="footer_contenido">Plaza San Martin, Lima</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

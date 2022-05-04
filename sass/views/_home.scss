@@ -13,12 +13,13 @@
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
-    color: #ffe284;
+    color: #9c9c9c;
+    // opacity: 0.9;
 }
 
 .section1 button , .section11 button{
-    margin: 15px 0px;
-    padding: 12px 20px;
+    // margin: 15px 0px;
+    padding: 8px 26px;
     background: blanchedalmond;
     border-style: none;
     border-radius: 20px;
@@ -47,7 +48,7 @@
 
 @media screen and (max-width:768px) {
     
-    .section1 , .section3{
+    .section1 , .section3, .section5, .section8, .section10{
         min-height: 310px;
     }
     .section2_cont , .section4_1_cont {
@@ -59,5 +60,8 @@
     }
     .section2_text, .section4_1_text, .section4_2_text ,.section6_text ,.section7_text ,.section9_text{
         margin: 10px 0px;
+    }
+    .section6{
+        padding: 30px 13.5px;
     }
 }

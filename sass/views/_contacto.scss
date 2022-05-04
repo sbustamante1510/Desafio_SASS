@@ -13,3 +13,16 @@
     }
 
 }
+
+
+@media screen and (max-width:768px){
+
+    .section11_sub{
+        flex-wrap: wrap;
+    }
+
+    .section11_subcontenedor{
+        width: 90%;
+        text-align: center;
+    }
+}

@@ -13,7 +13,7 @@ $estilos: (
     img-normalizador: 100%,
     margenes: 15px 0px,
     ancho-form: 80%,
-    relleno-interior: 10px,
+    relleno-interior: 6px,
     cursiva-boton: 6px,
     borde-form: 2px solid #ffe284
 );
@@ -23,8 +23,15 @@ p,ul{
     font-family: 'Comfortaa', cursive;
 }
 
+ul{
+    margin-bottom: 0;
+}
+
+
 h1,h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 body{
@@ -51,4 +58,10 @@ input, textarea{
     padding: map-get($estilos, relleno-interior);
     border-radius: map-get($estilos, cursiva-boton);
     border: map-get($estilos, borde-form);
+}
+
+@media screen and (max-width:768px){
+    input, textarea{
+        width: 100%;
+    }
 }

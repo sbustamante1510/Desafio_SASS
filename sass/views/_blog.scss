@@ -2,3 +2,11 @@
 .section9 p{
     text-align: justify;
 }
+
+
+@media screen and (max-width:768px) {
+    
+    .section9_sub1{
+        padding: 0 15px;
+    }
+}

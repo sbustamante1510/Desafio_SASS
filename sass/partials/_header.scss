@@ -14,12 +14,12 @@ header{
         @extend .flex-row;
         gap: 25px;
     }
-    & a{
+    .efecto_header{
         transition: all .5s ease-in;
 
         &:hover{
             font-size: 19px;
-            color: #ff6347;
+            color: #ff6347 !important;
             font-weight: bold;
         }
     }
